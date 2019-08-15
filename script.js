@@ -18,7 +18,7 @@ const easyBtn = document.querySelector(".btnEasy"),
 easyBtn.addEventListener("click", function (e) {
     removeBtn();
     createCards(4);
-    timer(5);
+    timer(30);
     e.preventDefault();
 });
 
